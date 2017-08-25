@@ -17,13 +17,3 @@ script:
 
 after_script:
   - flake8 --exclude polls/migrations/,manage.py  .
-
-deploy:
-  provider: heroku
-  run:
-    - "bash"
-    - "python manage.py makemigrations"
-    - "python manage.py migrate"
-  api_key:
-    secure: "s7zw!j_b2yd=d9p7^cdmh1^5%br4+c_ha9@^4a+p!e@=atj7nb"
-  app: gcs01-ronyell-travis
