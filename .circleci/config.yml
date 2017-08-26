@@ -42,6 +42,7 @@ jobs:
       - run:
           name: create database
           command: |
+            . venv/bin/activate
             python manage.py makemigrations
             python manage.py migrate
 
