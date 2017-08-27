@@ -56,9 +56,10 @@ jobs:
       - store_artifacts:
           path: test-reports
           destination: test-reports
-  
-    deployment:
-      prod:
-        branch: master
-        heroku:
-          appname: gcs01-ronyell-circle
+      - run:
+
+deployment:
+  staging:
+    branch: master
+    heroku:
+      appname: gcs01-ronyell-circle
