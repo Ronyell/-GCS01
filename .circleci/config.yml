@@ -58,9 +58,7 @@ jobs:
           destination: test-reports
   
     deployment:
-      staging:
+      prod:
         branch: master
-        commands:
-          - invoke deploy:
-              environment:
-                HEROKU_APP_NAME: gcs01-ronyell-circle
+        heroku:
+          appname: circle-hello
