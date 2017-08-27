@@ -1,5 +1,0 @@
-deployment:
-  staging:
-    branch: master
-    heroku:
-      appname: gcs01-ronyell-circle
