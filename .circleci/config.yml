@@ -58,8 +58,8 @@ jobs:
           destination: test-reports
       - run:
 
-  deployment:
-    staging:
-      branch: master
-      heroku:
-        appname: gcs01-ronyell-circle
+      deployment:
+        staging:
+          branch: master
+          heroku:
+            appname: gcs01-ronyell-circle
