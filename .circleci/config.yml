@@ -61,4 +61,4 @@ jobs:
       prod:
         branch: master
         heroku:
-          appname: circle-hello
+          appname: gcs01-ronyell-circle
