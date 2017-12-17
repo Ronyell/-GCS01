@@ -1,7 +1,0 @@
-django
-flake8
-dj-database-url
-gunicorn
-python-decouple
-psycopg2
-dj-static
